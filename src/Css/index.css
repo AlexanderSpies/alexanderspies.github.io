@@ -1,0 +1,12 @@
+body{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: "HeaderText";   /*Can be any text*/
+    src: local("AirbnbCerealLight"),
+      url("../Fonts/KingsmanDemo-1GVgg.ttf") format("truetype");
+  }
+
+@import "header.css";
+@import "home.css"
