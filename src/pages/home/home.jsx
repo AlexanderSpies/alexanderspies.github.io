@@ -14,7 +14,7 @@ const Home = () => {
             </div>
             <div className="info-block">
                 <h1 className='sectionHeading'>Stirring Up the Online Pot</h1>
-                <p className='Info'>Your culinary or mixological creation has the power to inspire, delight, and unite our community in a tapestry of flavors and experiences that we all savor together. Come, be a part of this delightful journey, and celebrate the art of sharing and cooking by uploading your cherished recipe today. Let your culinary adventure begin!</p>
+                <p className='Info'>Share the magic of your favorite recipes with us. Your culinary creations have the power to bring smiles, satisfaction, and togetherness. Let's make our community richer in flavors and experiences. Join in, inspire others, and become a part of our flavorful family. Start sharing your cherished recipe today, and let the joy of cooking connect us all!</p>
             </div>
         </div>
     );
