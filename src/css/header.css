@@ -1,0 +1,70 @@
+.container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 14rem;
+    background-color: #2f4858;
+  }
+
+.container::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+  }
+
+.titleContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: 80%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    justify-items: center;
+    align-items: center;
+}
+.title{
+    font-family: 'HeaderText';
+    margin:auto;
+    color: rgb(255, 255, 255);
+    font-size: 8rem;
+    font-weight: 500;
+    text-shadow: 10px 6px 11px #1d0f0f;
+}
+
+.menuContainer{
+    position: absolute;
+    top:35%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-content: center;
+}
+
+.menuOptions .menuOption {
+    font-family: 'HeaderText';
+    width: 200px;
+    height:25px;
+    text-align: center;
+    text-decoration: none;
+    color: #b42929;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-style: italic;
+    margin-right: 55px;
+}
+.menuOption:hover {
+    font-family: 'HeaderText';
+    width: 200px;
+    height:25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition-timing-function: ease;
+}
+
+
