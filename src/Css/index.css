@@ -1,12 +1,45 @@
-body{
-    margin:0;
-    padding:0;
+html, body a{
+  margin:0;
+  padding:0;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+  text-decoration: none;
 }
+*{
+  margin:0;
+  padding:0;
+}
+a {
+  color: inherit; /* Use the default text color */
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
 @font-face {
-    font-family: "HeaderText";   /*Can be any text*/
-    src: local("AirbnbCerealLight"),
-      url("../Fonts/KingsmanDemo-1GVgg.ttf") format("truetype");
-  }
+  font-family: "BodyText";
+  src: local("AirbnbCerealLight"), url("../Fonts/Nunito-Italic.ttf") format("truetype");
+}
+*{
+  margin:0;
+  padding:0;
+}
+a {
+  color: inherit; /* Use the default text color */
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+@font-face {
+  font-family: "HeaderText";
+  src: local("AirbnbCerealLight"),
+    url("../Fonts/UnicaOne-Regular.ttf") format("truetype");
+}
 
 @import "header.css";
-@import "home.css"
+@import "home.css";
+@import "recipies.css";
+@import "uploads.css";
