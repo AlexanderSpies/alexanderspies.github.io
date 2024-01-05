@@ -10,10 +10,10 @@ body{
 }
 
 .Recipes {
-  text-align: right;
+  text-align: left;
   height: 500px;
   width: 90%;
-  margin: 5% auto;
+  margin: 10% auto;
   display: flex;
 }
 
@@ -52,11 +52,12 @@ body{
 }
 
 .photoContainer {
-  height: 100%;
+  width: 45%; 
+  margin-right: 20px; 
 }
 
 .PastaPic {
-  height:500px;
+  width: 100%; 
   border-radius: 40px;
   mix-blend-mode: luminosity;
 }
@@ -73,8 +74,8 @@ body{
 }
 
 .triangle {
-  width: 100%; /* Assuming you want the image to fill the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: auto;
 }
 
 .overlay {
@@ -84,7 +85,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center; /* Center the text horizontally */
+  text-align: center;
   font-size: 4.5rem;
   color: #FFFF;
 }
