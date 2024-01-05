@@ -27,15 +27,11 @@ const Home = () => {
           <h2>DECADES OF DELICIOUSNESS</h2>
         </div>
       </div>
-      <div className="Upload">
-        <div className='sectionHeading'>
-          <a  href='/upload'>
-              <h1>Our Melting Pot</h1>
-              <p className='Info'>Share the magic of your favorite recipes with us. Your culinary creations have the power to bring smiles, satisfaction, and togetherness. Let's make our community richer in flavors and experiences. Join in, inspire others, and become a part of our flavorful family. Start sharing your cherished recipe today, and let the joy of cooking connect us all!</p>
-          </a>
+        <div className='uploadContainer'>
+              <h2 className='uploadInfo'>You're welcome to share your cherished family recipes here. Our digital repository promises your traditional meals will always be passed on.</h2>
+              <a className='uploadInfo' href='/upload'> Upload Here</a>
         </div>
       </div>
-    </div>
   );
 }
 

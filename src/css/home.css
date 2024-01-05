@@ -6,6 +6,7 @@ body{
   display: flex;
   flex-direction: column;
   position: relative;
+  height:100vh;
 }
 
 .Recipes {
@@ -56,7 +57,7 @@ align-items: flex-end;
 .triangleContainer {
   position: relative;
   display: inline-block;
-  filter:sepia(50%)
+  mix-blend-mode: luminosity;
 }
 
 .triangle {
@@ -75,6 +76,22 @@ align-items: flex-end;
   text-align: center; /* Center the text horizontally */
   font-size: 4.5rem;
   color: #FFFF;
+}
+.uploadContainer{
+  width: 90%;
+  margin: 0 auto;
+  padding:25px;
+}
+
+.uploadInfo{
+  font-family: 'HeaderText';
+  font-size: 3.2rem;
+  color: #b6b6b6 ;
+  width:55%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 768px) {
