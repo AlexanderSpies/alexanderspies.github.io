@@ -10,27 +10,20 @@ body{
 }
 
 .Recipes {
-  text-align: right; /* Align text to the right */
+  text-align: right;
   height: 500px;
   width: 90%;
-  position: relative;
-  margin: 10% auto;
+  margin: 5% auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; /* Align items to the right */
 }
 
-.Drinks{
-text-align: left; /* Align text to the right */
-height: 500px;
-width: 90%;
-position: relative;
-margin: 10% auto;
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-align-items: flex-end;
+.Drinks {
+  text-align: right;
+  height: 500px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .sectionHeading {
@@ -39,31 +32,49 @@ align-items: flex-end;
   font-size: 2.5rem;
   color: #98C1D9;
   cursor: pointer;
-  text-align: left; /* Align text to the right */
+  text-align: left;
   height: 100%;
-  width: 55%;
 }
-
 
 .Info {
   font-family: 'BodyText';
   font-size: 1.5rem;
   text-align: left;
-  color: #b6b6b6 ;
-  width: 65%;
-  margin: 10px;
+  color: #b6b6b6;
+}
+.contentContainer {
+  display: flex;
+  align-items: flex-start;
+  width:185%
+}
+.textContainer{
+  margin: auto 55px;
 }
 
+.photoContainer {
+  height: 100%;
+}
+
+.PastaPic {
+  height:500px;
+  border-radius: 40px;
+  mix-blend-mode: luminosity;
+}
+
+.liquorPic {
+  width: 500px;
+  border-radius: 40px;
+  mix-blend-mode: luminosity;
+}
 .triangleContainer {
   position: relative;
-  display: inline-block;
+  margin: 20% auto;
   mix-blend-mode: luminosity;
 }
 
 .triangle {
   width: 100%; /* Assuming you want the image to fill the container */
   height: auto; /* Maintain aspect ratio */
-  display: block;
 }
 
 .overlay {
@@ -77,12 +88,6 @@ align-items: flex-end;
   font-size: 4.5rem;
   color: #FFFF;
 }
-.uploadContainer{
-  width: 90%;
-  margin: 0 auto;
-  padding:25px;
-}
-
 .uploadInfo{
   font-family: 'HeaderText';
   font-size: 3.2rem;
@@ -93,6 +98,18 @@ align-items: flex-end;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+ .PastaPic:hover{
+  mix-blend-mode:initial;
+  transition:ease-in-out ;
+}
+.liquorPic:hover{
+  mix-blend-mode: initial;
+}
+
+
+
+
 
 @media (max-width: 768px) {
   .info-block {
