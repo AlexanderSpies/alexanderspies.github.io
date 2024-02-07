@@ -100,12 +100,9 @@ body{
   transform: translate(-50%, -50%);
 }
 
- .PastaPic:hover{
+ .PastaPic:hover, .liquorPic:hover, .sectionHeading:hover{
   mix-blend-mode:initial;
   transition:ease-in-out ;
-}
-.liquorPic:hover{
-  mix-blend-mode: initial;
 }
 
 
